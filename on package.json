@@ -1,0 +1,26 @@
+[1mdiff --git a/package-lock.json b/package-lock.json[m
+[1mindex 2d074cd..df0fba4 100644[m
+[1m--- a/package-lock.json[m
+[1m+++ b/package-lock.json[m
+[36m@@ -9,7 +9,7 @@[m
+       "version": "1.0.0",[m
+       "license": "ISC",[m
+       "dependencies": {[m
+[31m-        "@faker-js/faker": "^8.3.1",[m
+[32m+[m[32m        "@faker-js/faker": "^8.4.1",[m
+         "aggregate-error": "^3.1.0",[m
+         "ansi-colors": "^4.1.3",[m
+         "ansi-escapes": "^4.3.2",[m
+[36m@@ -222,9 +222,9 @@[m
+       }[m
+     },[m
+     "node_modules/@faker-js/faker": {[m
+[31m-      "version": "8.3.1",[m
+[31m-      "resolved": "https://registry.npmjs.org/@faker-js/faker/-/faker-8.3.1.tgz",[m
+[31m-      "integrity": "sha512-FdgpFxY6V6rLZE9mmIBb9hM0xpfvQOSNOLnzolzKwsE1DH+gC7lEKV1p1IbR0lAYyvYd5a4u3qWJzowUkw1bIw==",[m
+[32m+[m[32m      "version": "8.4.1",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@faker-js/faker/-/faker-8.4.1.tgz",[m
+[32m+[m[32m      "integrity": "sha512-XQ3cU+Q8Uqmrbf2e0cIC/QN43sTBSC8KF12u29Mb47tWrt2hAgBXSgpZMj4Ao8Uk0iJcU99QsOCaIL8934obCg==",[m
+       "funding": [[m
+         {[m
+           "type": "opencollective",[m
