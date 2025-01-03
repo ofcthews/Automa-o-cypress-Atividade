@@ -1,22 +1,19 @@
 /// <reference types="cypress" />
 
-describe('funcionabilidade: Produtos ', () => {
+describe('Funcionalidade: Produtos', () => {
 
+    // Antes de cada teste, visita a página de produtos
     beforeEach(() => {
-        
-        cy.visit('http://lojaebac.ebaconline.art.br/produtos/')
+        cy.visit('http://lojaebac.ebaconline.art.br/produtos/');
     });
 
-    it('deve selecionar um produto da lista', () => {
-
+    it('Deve selecionar um produto da lista e verificar a descrição', () => {
+        // Seleciona o produto com base no texto e clica nele
         cy.get('.products > .row')
-            //.first()
-            //.last()
-            //.eq(2)
             .contains('Argus All-Weather Tank')
-            .click()
+            .click();
 
-            cy.get('#tab-title-description > a').should('contain' , 'Descrição')
-        
+        // Verifica se a aba de descrição contém o texto "Descrição"
+        cy.get('#tab-title-description > a').should('contain', 'Descrição');
     });
 });
