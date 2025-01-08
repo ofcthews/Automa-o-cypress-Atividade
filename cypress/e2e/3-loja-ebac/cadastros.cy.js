@@ -4,7 +4,7 @@ import { faker } from '@faker-js/faker';
 describe('Funcionalidade: Cadastro de usuário', () => {
   beforeEach(() => {
     // Acesse a página de cadastro
-    cy.visit('http://lojaebac.ebaconline.art.br/minha-conta/');
+    cy.visit('minha-conta');
   });
 
   it('Deve completar o cadastro com sucesso usando variáveis dinâmicas', () => {
